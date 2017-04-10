@@ -1,0 +1,8 @@
+task_list:
+    path:     /task/list
+    defaults: { _controller: jBossjBPMBundle:Task:list }
+    methods: POST
+task_update:
+    path:     /task/updatestatus
+    defaults: { _controller: jBossjBPMBundle:Task:updateStatus }
+    methods: POST

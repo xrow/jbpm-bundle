@@ -1,0 +1,5 @@
+services:
+    j_bossj_bpm.JBPMConnecter:
+        class: jBoss\jBPMBundle\Service\JBPMConnectService
+    j_bossj_bpm.TaskService:
+        class: jBoss\jBPMBundle\Service\TaskService
